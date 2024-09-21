@@ -3,21 +3,17 @@
 
 layout: default
 ---
-<section class="section section--content">
-  <div class="inner description">
-    <img class="logo" src="{{ '/assets/images/logo.png' | prepend: site.baseurl | prepend: site.url }}">
-    <h1 class="description_headline">Ett community av UXare med basen i Östersund</h1>
-    <p class="description_text">Northern UX är främst en plats att hänga för UXare som bor eller jobbar i Jämtland, eller är nyfikna på hur det är att vara UXare här. Vi pratar på slack, håller meetups och genomför förbättringar för det lokala communityt. Målet är att ha roligare, öka samarbetet mellan företag/organisationer och höja kunskapsnivån.</p>
-    <p class="description_text">Vi är en rörelse som inte är knuten till något företag/organisation utan uppstått spontant utifrån behov. Däremot vill vi synliggöra de arbetsgivare som finns i närområdet för att bygga en starkare gemenskap.</p>
-    <div class="scroll_indicator_wrapper"><a class="scroll_indicator_symbol" href="#cta">〉</a></div>
-  </div>
+<section class="section section--hero">
+  {% include header.html %}
+  <h1 class="description_headline">Eljest Ordenssällskap</h1>
+  <p class="description_text">Ett ordenssällskap med syfte att under uppstyrda former samla medlemmarna till festlig samvaro, dans och andra spektakel.</p>
 </section>
-<section id="cta" class="section section--cta">
-  <div class="inner cta-wrapper">
-    <div class="cta_divider"></div>
-    <div class="cta">
-      Få din dagliga dos av katt-giffar genom att gå med i vår&nbsp;slack.
-      <a class="cta_button cta_button--secondary" href="https://join.slack.com/t/northern-ux/shared_invite/enQtNzgyNzMwMTYyMjQzLTkyOTk0NDM5YmJhYzBjYzZkZGQ2ZDY3YjZkOTliZThhOThiMGI0NWM1NDY0ZjA1YjExMmIzNGFkZjY5N2Y5YmQ">Registera dig på slack</a>
-    </div>
+<section class="section section--mainEvent">
+    <h2 class="description_headline">Höstbal</h2>
+    <p class="description_text">Bla bla bla</p>
+</section>
+<section class="section section--about">
+  <div class="inner">
+    Om Orden
   </div>
 </section>

@@ -5,19 +5,30 @@ $color-white: #FFF;
 $color-black: #000;
 
 //Blues
-$color-gallery:		#EEEEEE;
+$color-gallery:	#EEEEEE;
+$color-mystic:  #DCE9ED;
+
+//Greens
+$color-willowBrook: #DCEDDE;
 
 //Greys
 $color-woodsmoke:		#131516;
 $color-grey30:			rgba(0,0,0,0.30);
 
+//Darks
+$color-mineShaft : #262626;
+
+//Lights
+$color-whiteLinen: #F9F2EA;
+
 //Pink
 $color-fuchsiaPink: #C357AD;
 
 // --- USAGE OF COLORS ------
-$color-pageBg: $color-fuchsiaPink;
-$color-ctaBackground: $color-white;
-$color-ctaText: $color-woodsmoke;
+$color-pageBg: $color-mineShaft;
+$color-contentBg: $color-whiteLinen;
+$color-mainEventBg: $color-mystic;
+$color-aboutBg: $color-willowBrook;
 
 $color-accent: $color-fuchsiaPink;
 

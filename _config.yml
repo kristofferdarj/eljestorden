@@ -3,12 +3,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Northern UX
+title: Nocturna
 email: kristoffer.darj@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Northern UX är ett community för att skapa kontakt mellan UXare i Norra Sverige.
+  Nocturna är ett ordenssällskap med syfte att under uppstyrda former samla medlemmarna till festlig samvaro, dans och andra spektakel.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://northernux.se" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nocturna.se" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown

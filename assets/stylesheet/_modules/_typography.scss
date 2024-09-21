@@ -1,6 +1,11 @@
 //Font family
 $fontFamily-default: 'Roboto Condensed', sans-serif;
-$fontFamily-secondary: 'Roboto', sans-serif;
+$fontFamily-secondary: 'Nina', sans-serif;
+
+@font-face {
+	font-family: Nina;
+	src: url("../../../assets/fonts/Ninna-Regular.otf") format("opentype");
+}
 
 /* Line heights */
 $lineHeight-base: 1.5;
@@ -18,7 +23,8 @@ $fontWeight-normal: 400;
 }
 
 .headline_common {
-	font-family: $fontFamily-default;
+	font-display: swap;
+	font-family: $fontFamily-secondary;
 	font-weight: $fontWeight-normal;
 	line-height: $lineHeight-headline;
 }
@@ -27,6 +33,7 @@ $fontWeight-normal: 400;
 {
 	@extend .headline_common;
 	font-size: 32px;
+	font-stretch: 100%;
 	font-weight: 400;
 
 	@media(min-width: 381px)
@@ -36,7 +43,7 @@ $fontWeight-normal: 400;
 
 	@media(min-width: 900px)
 	{
-		font-size: 64px;
+		font-size: 80px;
 	}
 }
 .headlineLarge
