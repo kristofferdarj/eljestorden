@@ -16,19 +16,12 @@
   color: $color-white;
 
 }
-@keyframes ctaBackground {
-    0%{background-position:0% 88%}
-    50%{background-position:100% 13%}
-    100%{background-position:0% 88%}
-}
 .body {
-  align-items: center;
   background-color: $color-pageBg;
   color: $color-text;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  position: relative;
 	@extend .font-text;
 }
 .section {
@@ -53,18 +46,47 @@
   }
 }
 .pageContainer {
-  background-color: $color-whiteLinen;
   width: 100%;
+}
+/* Buttons */
+.button {
+  @extend .font-text;
+  background-color: transparent;
+  border: 2px solid $color-white;
+  border-color: $color-white;
+  border-radius: 3px;
+  color: $color-white;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+.button--cta {
+  @extend .button-text;
+  font-size: 24px;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $color-buttonCtaHoverBackground;
+    color: $color-buttonCtaHoverColor;
+  }
+}
+.button--ctaDark {
+  @extend .button--cta;
+  border-color: $color-textSecondary;
+  color: $color-textSecondary;
+
+  &:hover {
+    background-color: $color-buttonCtaDarkHoverBackground;
+    color: $color-buttonCtaDarkHoverColor;
+  }
 }
 
 /* Navigation */
 .navigation--top {
   align-items: center;
-  justify-self: start;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-//  margin: 0 0 auto 0;
   max-width: 920px;
   padding: 1em 2em;
   text-transform: uppercase;
@@ -74,8 +96,7 @@
   color: $color-white;
   text-decoration: none;
 }
-
-.symbol {
+.navigation_symbol {
   object-fit: contain;
   max-height: 50px;
   max-width: 50px;
@@ -88,10 +109,6 @@
   color: $color-white;
 }
 
-.section--mainEvent {
-  background-color: $color-mainEventBg;
-}
-
 /* Hero */
 .section--hero {
   align-items: center;
@@ -102,32 +119,72 @@
   padding: 0 2em;
   min-height: 80vh;
 }
-.description_headline {
+.hero_headline {
   @extend .headlineLargest;
   margin-bottom: 0.7em;
   text-align: center;
 }
-.description_text {
+.hero_text {
   font-family: 'Roboto Condensed';
   font-weight: 300;
   font-size: 24px;
   padding-bottom: 3em;
   max-width: 33em;
   text-align: center;
-
-  &:last-child {
-      margin-bottom: 0;
-  }
 }
 
 /* Autumn ball */
-.section--mainEvent {
+.section--presentation {
+  background-color: $color-eventBg;
+  border-top: 3px solid $color-sectionBorderLight;
+  display: flex;
+  flex-direction: row;
+}
+.presentation_main {
+  flex-basis: 50%;
   padding: 3rem;
 }
+.presentation_aux {
+  flex-basis: 50%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: 0 20%;
+}
+.presentation_headline {
+  @extend .headlineLarge;
+  margin: 0 0 0.5em 0;
+}
+.presentation_text {
+  @extend .font-text;
+  margin: 0 0 2em 0;
+  max-width: 33em;
+}
 
-/* About */
-.section--about {
-  background-color: $color-aboutBg;
+/* Autumn ball */
+.section--presentation2 {
+  align-items: center;
+  background-color: $color-gasqueBg;
+  display: flex;
+  flex-direction: column;
+}
+.presentation2_main {
+  padding: 3rem;
+}
+.presentation2_aux {
+  flex-basis: 30%;
+  max-height: 250px;
+  object-fit: contain;
+}
+.presentation2_headline {
+  @extend .headlineLargest;
+  color: $color-textSecondary;
+  margin: 0 0 0.5em 0;
+}
+.presentation2_text {
+  @extend .font-text;
+  color: $color-textSecondary;
+  margin: 0 0 2em 0;
+  max-width: 33em;
 }
 
 .flex_filler {

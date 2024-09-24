@@ -8,7 +8,7 @@ $fontFamily-secondary: 'Nina', sans-serif;
 }
 
 /* Line heights */
-$lineHeight-base: 1.5;
+$lineHeight-base: 1.7;
 $lineHeight-headline: 1.2;
 
 /* Fontweights */
@@ -29,6 +29,28 @@ $fontWeight-normal: 400;
 	line-height: $lineHeight-headline;
 }
 
+.button-text {
+	font-family: $fontFamily-secondary;
+	font-size: 32px;
+	font-weight: $fontWeight-normal;
+}
+
+.headlineLarge
+{
+	@extend .headline_common;
+	font-size: 24px;
+
+	@media(min-width: 380px)
+	{
+		font-size: 8vw;
+	}
+
+	@media(min-width: 580px)
+	{
+		font-size: 60px;
+	}
+}
+
 .headlineLargest
 {
 	@extend .headline_common;
@@ -44,20 +66,5 @@ $fontWeight-normal: 400;
 	@media(min-width: 900px)
 	{
 		font-size: 80px;
-	}
-}
-.headlineLarge
-{
-	@extend .headline_common;
-	font-size: 24px;
-
-	@media(min-width: 380px)
-	{
-		font-size: 7vw;
-	}
-
-	@media(min-width: 580px)
-	{
-		font-size: 40px;
 	}
 }

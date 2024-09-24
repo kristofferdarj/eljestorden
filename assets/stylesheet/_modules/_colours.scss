@@ -8,8 +8,14 @@ $color-black: #000;
 $color-gallery:	#EEEEEE;
 $color-mystic:  #DCE9ED;
 
+//Browns
+$color-woodyBrown: #4C2F2F;
+
 //Greens
 $color-willowBrook: #DCEDDE;
+
+//Yellows
+$color-gold: #FFD700;
 
 //Greys
 $color-woodsmoke:		#131516;
@@ -27,10 +33,16 @@ $color-fuchsiaPink: #C357AD;
 // --- USAGE OF COLORS ------
 $color-pageBg: $color-mineShaft;
 $color-contentBg: $color-whiteLinen;
-$color-mainEventBg: $color-mystic;
-$color-aboutBg: $color-willowBrook;
+$color-eventBg: $color-woodyBrown;
+$color-gasqueBg: $color-willowBrook;
+$color-sectionBorderLight: $color-gold;
 
-$color-accent: $color-fuchsiaPink;
+$color-accent: $color-gold;
 
 $color-text:  $color-white;
 $color-textSecondary: $color-woodsmoke;
+
+$color-buttonCtaHoverBackground: $color-white;
+$color-buttonCtaHoverColor: $color-woodyBrown;
+$color-buttonCtaDarkHoverBackground: $color-textSecondary;
+$color-buttonCtaDarkHoverColor: $color-willowBrook;
