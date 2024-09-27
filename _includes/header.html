@@ -1,7 +1,14 @@
-<nav class="navigation navigation--top">
-  <a class="navigation_link" href="/bal">Höstbal</a>
-  <a class="navigation_link" href="/gasque">Vårgasque</a>
-  <a class="navigation_link" href="/"><img class="navigation_symbol" src="{{ '/assets/images/symbol.svg' | prepend: site.baseurl | prepend: site.url }}"></a>
-  <a class="navigation_item navigation_link" href="/bildning">Bildning</a>
-  <a class="navigation_item navigation_link" href="/om">Om Orden</a>
-</nav>
+<section class="top-nav">
+  <input id="menu-toggle" type="checkbox" />
+  <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+  <ul class="menu">
+    <li class="navigation_item--mobile"><a class="menu_link" href="/">Hem</a></li>
+    <li><a class="menu_link" href="/bal">Höstbal</a></li>
+    <li><a class="menu_link" href="/gasque">Vårgasque</a></li>
+    <li class="menu_symbol"><a class="menu_link" href="/"><img class="menu_symbol" src="{{ '/assets/images/symbol.svg' | prepend: site.baseurl | prepend: site.url }}"></a></li>
+    <li><a class="navigation_item menu_link" href="/bildning">Bildning</a></li>
+    <li><a class="navigation_item menu_link" href="/om">Om&nbsp;Orden</a></li>
+  </ul>
+</section>

@@ -7,14 +7,12 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "reset",
         "typography",
+        "menu",
         "colours";
-* {
-  box-sizing: border-box;
-}
+
 ::selection {
   background-color: $color-accent;
   color: $color-white;
-
 }
 .body {
   background-color: $color-pageBg;
@@ -44,9 +42,6 @@
       width: calc(1024px - 60px);
       max-width: calc(1024px - 60px);
   }
-}
-.pageContainer {
-  width: 100%;
 }
 /* Buttons */
 .button {
@@ -81,26 +76,6 @@
   }
 }
 
-/* Navigation */
-.navigation--top {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  max-width: 920px;
-  padding: 1em 2em;
-  text-transform: uppercase;
-  width: 100%;
-}
-.navigation_link {
-  color: $color-white;
-  text-decoration: none;
-}
-.navigation_symbol {
-  object-fit: contain;
-  max-height: 50px;
-  max-width: 50px;
-}
 .link {
   border-bottom: 2px solid;
   text-decoration: none;
@@ -110,81 +85,144 @@
 }
 
 /* Hero */
-.section--hero {
+.hero {
   align-items: center;
-  background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/hero.png');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/hero.png');
   background-size: cover;
+  border-bottom: 3px solid $color-sectionBorderLight;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 0 2em;
   min-height: 80vh;
 }
 .hero_headline {
   @extend .headlineLargest;
-  margin-bottom: 0.7em;
   text-align: center;
 }
 .hero_text {
   font-family: 'Roboto Condensed';
   font-weight: 300;
   font-size: 24px;
-  padding-bottom: 3em;
+  padding: 3em 1em;
   max-width: 33em;
   text-align: center;
+
+  @media (width > 700px)
+  {
+    padding: 3em 0;
+  }
 }
 
 /* Autumn ball */
-.section--presentation {
+.hero--ball {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/soiree_elegante.jpg');
+  background-position: center center;
+}
+
+/* Gasque */
+.hero--gasque {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/flirtation.jpg');
+  background-position: center center;
+}
+/* Education */
+.hero--education {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/the-concert.jpg');
+  background-position: 0 30%;
+}
+
+/* Autumn ball */
+.puffBall {
   background-color: $color-eventBg;
-  border-top: 3px solid $color-sectionBorderLight;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-.presentation_main {
-  flex-basis: 50%;
+.puffBall_main {
+  flex-basis: 100%;
   padding: 3rem;
+
+  @media (width > 700px)
+  {
+    flex-basis: 50%;
+  }
 }
-.presentation_aux {
+.puffBall_aux {
+  display: none;
   flex-basis: 50%;
+  max-width: 50%;
   max-height: 500px;
   object-fit: cover;
   object-position: 0 20%;
+
+  @media (width > 700px) {
+    display: flex;
+  }
 }
-.presentation_headline {
+.puffBall_headline {
   @extend .headlineLarge;
   margin: 0 0 0.5em 0;
 }
-.presentation_text {
+.puffBall_text {
   @extend .font-text;
   margin: 0 0 2em 0;
   max-width: 33em;
 }
 
 /* Autumn ball */
-.section--presentation2 {
+.puffGasque {
   align-items: center;
-  background-color: $color-gasqueBg;
+  background: $color-gasqueBg;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
 }
-.presentation2_main {
+.puffGasque::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/images/gasque-overlay.jpg');
+  opacity: 0.08;
+  z-index: -1; /* Ensure background image is behind the text */
+}
+.puffGasque_main {
   padding: 3rem;
 }
-.presentation2_aux {
+.puffGasque_aux {
   flex-basis: 30%;
   max-height: 250px;
   object-fit: contain;
 }
-.presentation2_headline {
+.puffGasque_headline {
   @extend .headlineLargest;
   color: $color-textSecondary;
   margin: 0 0 0.5em 0;
 }
-.presentation2_text {
+.puffGasque_text {
   @extend .font-text;
   color: $color-textSecondary;
   margin: 0 0 2em 0;
   max-width: 33em;
+}
+
+.page_headline {
+  @extend .headlineLarge;
+  margin-bottom: 0.2em;
+}
+.page_text {
+  @extend .font-text;
+  max-width: 33em;
+  margin-bottom: 1em;
+}
+.page_text--last {
+  margin-bottom: 2em;
+}
+.inner--page {
+  padding: 2em 0;
 }
 
 .flex_filler {

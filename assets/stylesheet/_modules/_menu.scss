@@ -1,0 +1,153 @@
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "colours";
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0,0,0,0.7);
+  justify-content: flex-end;
+  color: $color-text;
+  padding: 1.5em;
+  width: 100%;
+
+  @media (width > 700px) {
+    background-color: transparent;
+    justify-content: center;
+    padding-top: 15px;
+  }
+}
+.menu {
+  position: absolute;
+  top: 0;
+  margin-top: 50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  @media (width > 700px) {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+}
+
+.menu > li {
+  @media(width <= 700px) {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+
+  margin: 0 1rem;
+  overflow: hidden;
+}
+.menu li.menu_symbol {
+  display: none;
+
+  @media (width > 700px) {
+    display: flex;
+  }
+}
+.menu_link {
+  color: $color-text;
+  text-decoration: none;
+}
+.menu_symbol {
+  object-fit: contain;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.menu-button-container {
+  display: flex;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (width > 700px) {
+    display: none;
+  }
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+.navigation_item--mobile {
+  display: inline-block;
+
+  @media (min-width: 700px)
+  {
+    display: none;
+  }
+}
