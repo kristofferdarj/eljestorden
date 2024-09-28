@@ -1,0 +1,45 @@
+@import "colours",
+        "typography";
+
+.form {
+  container-type: inline-size;
+  container-name: form;
+  width: 300px;
+}
+.form_subgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 1em 0;
+  width: 100%;
+}
+.form_label {
+  width: 10em;
+}
+.form_input {
+  @extend .form-text;
+  padding: 0.5em;
+}
+.form_select {
+  @extend .form-text;
+  border-right: 0.5em solid transparent;
+  padding: 0.5em;
+  width: 100%;
+}
+.form_textarea {
+  @extend .form-text;
+  height: 15em;
+  margin: 0 0 2em 0;
+  padding: 0.5em;
+  width: 100%;
+}
+.form_submit {
+  @extend .font-text;
+  background-color: $color-text;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: $color-accent;
+  }
+}

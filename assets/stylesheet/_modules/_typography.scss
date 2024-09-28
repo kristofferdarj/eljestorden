@@ -1,5 +1,4 @@
 //Font family
-$fontFamily-default: 'Roboto Condensed', sans-serif;
 $fontFamily-secondary: 'Nina', sans-serif;
 
 @font-face {
@@ -14,6 +13,7 @@ $lineHeight-headline: 1.2;
 /* Fontweights */
 $fontWeight-light: 	300;
 $fontWeight-normal: 400;
+$fontWeight-bold: 600;
 
 .font-text {
 	font-family: $fontFamily-secondary;
@@ -21,7 +21,15 @@ $fontWeight-normal: 400;
 	font-weight: $fontWeight-light;
 	line-height: $lineHeight-base;
 }
-
+.bold {
+	font-weight: $fontWeight-bold;
+}
+.form-text {
+	font-family: $fontFamily-secondary;
+	font-size: 16px;
+	font-weight: $fontWeight-light;
+	line-height: $lineHeight-base;
+}
 .headline_common {
 	font-display: swap;
 	font-family: $fontFamily-secondary;
