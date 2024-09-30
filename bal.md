@@ -52,7 +52,7 @@ layout: default
       </div>
       <div class="form_subgroup">
         <label class="form_label" for="message">Meddelande</label>
-        <textarea class="form_textarea" id="message" placeholder="För guds skull, snälla välj mig! Jag var sexmästare på nationen!"></textarea>
+        <textarea class="form_textarea" id="message" name="message" placeholder="För guds skull, snälla välj mig! Jag var sexmästare på nationen!"></textarea>
       </div>
       <input type="hidden" name="_next" value="https://orden.eljest.se/tack" />
       <input type="hidden" name="_subject" value="Anmälan höstbal!" />
