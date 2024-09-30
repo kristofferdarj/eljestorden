@@ -8,20 +8,20 @@ layout: default
 </section>
 <section>
    <div class="page_container">
-    <h2 class="page_headline">Vad?</h2>
+    <h2 class="page_headline">Vad</h2>
     <p class="page_text page_text--last">Höstbalen är allt du saknat och lite till. En klassisk men förbättrad studentikos bal, för oss som redan har lämnat studentlivet. Det betyder bland annat att du får damma av balklänning eller frack, njuta av uppträdanden, bläddra i sånghäften och dansa&nbsp;styrdans.</p>
-    <h2 class="page_headline">Varför?</h2>
+    <h2 class="page_headline">Varför</h2>
     <p class="page_text page_text--last">Vi saknade sittningarna från studenttiden. Trots att vi aldrig varit fattigare än då gick vi på fler baler, gasquer och andra sittningar än vi gjort senare. "Så bakvänt," tänkte vi och drog igång Eljest&nbsp;Ordenssällskap.</p>
-    <h2 class="page_headline">För vem?</h2>
+    <h2 class="page_headline">För vem</h2>
     <p class="page_text">Höstbalen är öppen för dig som studerat i en stad med stark studenttradition. Om du inte redan fått en inbjudan kan du anmäla ditt intresse och hålla tummarna.</p>
     <p class="page_text page_text--last">Vi kan tyvärr inte hålla höstbalen öppen för alla, då riskerar vi att tappa det studentikosa och bli en fest bland andra fester.</p>
     <h2 class="page_headline">Regler</h2>
     <p class="page_text page_text--last">Vi gillar när människor pratar med varandra, och tycker det är trist när människor tittar på små fyrkantiga skärmar. Därför kommer du att få lämna in alla dina små skärmar när du anländer. Det gör också att du inte behöver oroa dig över att du ska hamna på bild eller video. Släpp loss som om det var innan smartphones istället.</p>
     <h2 class="page_headline">Praktiskt</h2>
     <ul>
-      <li>Datum: </li>
-      <li>Tid:</li>
-      <li>Var: </li>
+      <li>Datum: Hösten 2024 - datum inte satt</li>
+      <li>Tid: -</li>
+      <li>Var: -</li>
       <li>Klädsel: Högtidsdräkt m.o.</li>
       <li>Kostnad: x per kuvert</li>
     </ul>

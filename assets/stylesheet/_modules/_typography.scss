@@ -43,6 +43,21 @@ $fontWeight-bold: 600;
 	font-weight: $fontWeight-normal;
 }
 
+.headlineMedium
+{
+	@extend .headline_common;
+	font-size: 24px;
+
+	@media(min-width: 380px)
+	{
+		font-size: 8vw;
+	}
+
+	@media(min-width: 580px)
+	{
+		font-size: 40px;
+	}
+}
 .headlineLarge
 {
 	@extend .headline_common;

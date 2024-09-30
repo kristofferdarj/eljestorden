@@ -9,7 +9,8 @@
         "typography",
         "menu",
         "colours",
-        "forms";
+        "forms",
+        "accordion";
 
 ::selection {
   background-color: $color-accent;
@@ -90,6 +91,7 @@
 .list {
   list-style-type: circle;
   margin-bottom: 1em;
+  padding-left: 1em;
 }
 
 /* Hero */
@@ -129,12 +131,29 @@
 /* Gasque */
 .hero--gasque {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/flirtation.jpg');
-  background-position: center center;
+  background-position: 20% center;
+  transition: 0.5s;
+
+  @media (min-width: 1000px)
+  {
+    background-position: center center;
+  }
 }
+.hero--about {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/om_orden.jpg');
+  background-position: center center;
+  transition: 0.5s;
+}
+
 /* Education */
 .hero--education {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/the-concert.jpg');
-  background-position: 0 30%;
+  background-position: 70% center;
+  transition: 1s;
+
+  @media (min-width: 600px) {
+    background-position: 0 30%;
+  }
 }
 
 /* Autumn ball */
@@ -218,9 +237,13 @@
 
 /* Info page */
 .page_container {
-  padding: 2em 0;
+  padding: 2em 2em;
   margin: 0 auto;
   max-width: 33em;
+
+  @media (min-width: 620px) {
+    padding: 2em 0em;
+  }
 }
 .page_headline {
   @extend .headlineLarge;
@@ -235,6 +258,14 @@
   margin-bottom: 2em;
 }
 
+.contentGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  @media (min-width: 700px) {
+    grid-template-columns: auto 33em auto;
+  }
+}
 .flex_filler {
   display: flex;
   flex-grow: 1;

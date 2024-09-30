@@ -19,9 +19,9 @@ layout: default
     <p class="page_text page_text--last">Vi gillar när människor pratar med varandra, och tycker det är trist när människor tittar på små fyrkantiga skärmar. Därför kommer du att få lämna in alla dina små skärmar när du anländer. Det gör också att du inte behöver oroa dig över att du ska hamna på bild eller video. Släpp loss som om det var innan smartphones istället.</p>
     <h2 class="page_headline">Praktiskt</h2>
     <ul>
-      <li>Datum: </li>
-      <li>Tid:</li>
-      <li>Var: </li>
+      <li>Datum: Våren 2025, datum inte satt.</li>
+      <li>Tid: -</li>
+      <li>Var: -</li>
       <li>Klädsel: Kavaj</li>
       <li>Kostnad: x per kuvert</li>
     </ul>
@@ -52,7 +52,7 @@ layout: default
       </div>
       <div class="form_subgroup">
         <label class="form_label" for="message">Meddelande</label>
-        <textarea class="form_textarea" id="message" placeholder="För guds skull, snälla välj mig! Jag var sexmästare på nationen!"></textarea>
+        <textarea class="form_textarea" id="message" placeholder="För guds skull, snälla välj mig! Jag kan 42 snapsvisor utantill!"></textarea>
       </div>
       <input type="hidden" name="_next" value="https://orden.eljest.se/tack" />
       <input type="hidden" name="_subject" value="Anmälan vårgasque!" />

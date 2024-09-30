@@ -1,0 +1,43 @@
+@import "typography",
+        "colours";
+
+.accordion {
+  padding: 40px 2em 0 2em;
+
+  @media (min-width: 660px) {
+    padding: 40px 0 0 0;
+  }
+}
+.accordion_item {
+  padding-bottom: 0.5em;
+}
+.accordion_label {
+  @extend .headlineMedium;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+.accordion_item.is-expanded .accordion_label {
+  padding-bottom: 16px;
+
+  &::after {
+    content: '-';
+  }
+}
+.accordion_label::after {
+  content: '+';
+  color: $color-text;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+}
+.accordion_content {
+  height: 0;
+  transition: 0.2s;
+  overflow: hidden;
+}
+.accordion_item.is-expanded .accordion_content {
+    height: auto;
+}
