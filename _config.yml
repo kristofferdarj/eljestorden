@@ -12,6 +12,8 @@ url: "https://orden.eljest.se" # the base hostname & protocol for your site, e.g
 
 # Build settings
 markdown: kramdown
+timezone: Europe/Stockholm
+encoding: utf-8
 
 sass:
     sass_dir: assets/stylesheet/_modules

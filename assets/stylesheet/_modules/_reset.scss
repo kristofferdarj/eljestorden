@@ -127,7 +127,9 @@ q {
   &:after {
     content: '';
     content: none; } }
-
+p {
+  text-wrap: pretty;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
