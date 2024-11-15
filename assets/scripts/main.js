@@ -1,4 +1,4 @@
-const accordionItems = document.getElementsByClassName('accordion_item');
+const accordionItems = document.getElementsByClassName('js-accordion');
 
 for (let i = 0; i < accordionItems.length; i++) {
   accordionItems[i].addEventListener('click', function () {
