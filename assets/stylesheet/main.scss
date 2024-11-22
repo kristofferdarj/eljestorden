@@ -89,6 +89,13 @@
   justify-content: space-between;
   min-height: 80vh;
 }
+.hero_hgroup {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 60vh;
+}
 .hero_headline {
   @extend .headlineLargest;
   text-align: center;

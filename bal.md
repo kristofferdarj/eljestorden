@@ -3,8 +3,10 @@ layout: default
 ---
 <section class="hero hero--ball">
   {% include header.html %}
-  <h1 class="hero_headline">Höstbalen</h1>
-  <p class="hero_text">Ät gott, skratta, och svinga dina lurviga. Höstbalen är allt det bra du minns från balerna i studentlivet och inget av det dåliga du&nbsp;glömt.</p>
+  <hgroup class="hero_hgroup">
+    <h1 class="hero_headline">Höstbalen</h1>
+    <p class="hero_text">Ät gott, skratta, och svinga dina lurviga. Höstbalen är allt det bra du minns från balerna i studentlivet och inget av det dåliga du&nbsp;glömt.</p>
+  </hgroup>
 </section>
 <section class="sectionContainer">
   <h2 class="page_headline">Vad</h2>

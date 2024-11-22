@@ -5,8 +5,10 @@ layout: default
 ---
 <section class="hero">
   {% include header.html %}
-  <h1 class="hero_headline">Eljest Ordens&shy;sällskap</h1>
-  <p class="hero_text">Ett ordenssällskap i Östersund med syfte att under uppstyrda former samla medlemmarna till festlig samvaro, dans och andra spektakel.</p>
+  <hgroup class="hero_hgroup">
+    <h1 class="hero_headline">Eljest Ordens&shy;sällskap</h1>
+    <p class="hero_text">Ett ordenssällskap i Östersund med syfte att under uppstyrda former samla medlemmarna till festlig samvaro, dans och andra spektakel.</p>
+  </hgroup>
 </section>
 <section class="autumnTeaser">
   <div class="autumnTeaser_main">

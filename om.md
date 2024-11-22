@@ -5,8 +5,10 @@ layout: default
 ---
 <section class="hero hero--about">
   {% include header.html %}
-  <h1 class="hero_headline">Om Orden</h1>
-  <p class="hero_text">Panem et circenses</p>
+  <hgroup class="hero_hgroup">
+    <h1 class="hero_headline">Om Orden</h1>
+    <p class="hero_text">Panem et circenses</p>
+  </hgroup>
 </section>
 <section class="sectionContainer">
   <h2 class="page_headline">Syfte</h2>
