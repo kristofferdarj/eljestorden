@@ -14,14 +14,14 @@ layout: default
       <h2 class="page_headline">Varför</h2>
   <p class="page_text page_text--last">Vi saknade sittningarna från studenttiden. Vårbalen är ett tillfälle att vakna ur vinterdvalan och klä upp sig.</p>
   <h2 class="page_headline">För vem</h2>
-  <p class="page_text">Vårgasquen är öppen för dig som studerat i en stad med stark studenttradition. Du kan alltid anmäla dig och hålla tummarna.</p>
-  <p class="page_text page_text--last">Vi kan tyvärr inte hålla vårgasquen öppen för alla, då riskerar vi att tappa det studentikosa och bli en fest bland andra fester.</p>
+  <p class="page_text">Vårgasquen är öppen för dig som studerat i en stad med stark studenttradition och vet vad det innebär och för dig som pluggat någon annanstans men som är öppen för att bli en del av det studentikosa. Du kan alltid anmäla dig och hålla tummarna.</p>
+  <p class="page_text page_text--last">Vi kan tyvärr inte hålla vårgasquen öppen för alla, då riskerar vi att bara bli en fest bland andra fester.</p>
   <h2 class="page_headline">Regler</h2>
-  <p class="page_text page_text--last">Vi gillar när människor pratar med varandra, och tycker det är trist när människor tittar på små fyrkantiga skärmar. Därför kommer du att få lämna in alla dina små skärmar när du anländer. Det gör också att du inte behöver oroa dig över att du ska hamna på bild eller video. Släpp loss som om det var innan smartphones istället.</p>
+  <p class="page_text page_text--last">Vi gillar när människor pratar med varandra, och tycker det är trist när människor tittar på små fyrkantiga skärmar. Därför kommer du att få lämna in alla dina små skärmar när du anländer. Det gör också att du inte behöver oroa dig över att du ska hamna på bild eller video. Släpp loss som om smartphones inte fanns istället.</p>
   <h2 class="page_headline">Praktiskt</h2>
   <p class="page_text">Anmäl ditt intresse om du tror att det här skulle vara något för dig. Allt det praktiska kommer vi att bestämma när vi fått tillräckligt med anmälningar, och om det blir av skickar vi ut inbjudningar som du får ta ställning till då.</p>
   <ul>
-    <li>Datum: Våren 2025, datum inte satt.</li>
+    <li>Datum: Våren 2025, datum inte satt, men gissningsvis under maj.</li>
     <li>Tid: 17:00 - sent</li>
     <li>Var: Temperance (troligen)</li>
     <li>Klädsel: Kavaj</li>

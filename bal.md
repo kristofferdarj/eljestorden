@@ -12,16 +12,16 @@ layout: default
   <h2 class="page_headline">Vad</h2>
   <p class="page_text page_text--last">Höstbalen är allt du saknat och lite till. En klassisk men förbättrad studentikos bal, för oss som redan har lämnat studentlivet. Det betyder bland annat att du får damma av balklänning eller frack, njuta av uppträdanden, bläddra i sånghäften och dansa&nbsp;styrdans.</p>
   <h2 class="page_headline">Varför</h2>
-  <p class="page_text page_text--last">Vi saknade sittningarna från studenttiden. Trots att vi aldrig varit fattigare än då gick vi på fler baler, gasquer och andra sittningar än vi gjort senare. "Så bakvänt," tänkte vi och drog igång Eljest&nbsp;Ordenssällskap.</p>
+  <p class="page_text page_text--last">Vi saknade sittningarna från studenttiden. Trots att vi aldrig varit fattigare än då gick vi på fler baler, gasquer och andra sittningar än vi gjort senare. "Så bakvänt," tänkte vi och drog igång Eljest Ordenssällskap.</p>
   <h2 class="page_headline">För vem</h2>
-  <p class="page_text">Höstbalen är öppen för dig som studerat i en stad med stark studenttradition. Du kan alltid anmäla intresse och hålla tummarna.</p>
-  <p class="page_text page_text--last">Vi kan tyvärr inte hålla höstbalen öppen för alla, då riskerar vi att tappa det studentikosa och bli en fest bland andra fester.</p>
+  <p class="page_text">Höstbalen är öppen för dig som studerat i en stad med stark studenttradition och för dig som har pluggat någon annanstans men vill bli en del av det studentikosa. Du kan alltid anmäla intresse och hålla tummarna.</p>
+  <p class="page_text page_text--last">Vi kan tyvärr inte hålla höstbalen öppen för alla, då riskerar vi att bli en fest bland andra fester.</p>
   <h2 class="page_headline">Regler</h2>
   <p class="page_text page_text--last">Vi gillar när människor pratar med varandra, och tycker det är trist när människor tittar på små fyrkantiga skärmar. Därför kommer du att få lämna in alla dina små skärmar när du anländer. Det gör också att du inte behöver oroa dig över att du ska hamna på bild eller video. Släpp loss som du gjorde innan smartphones istället.</p>
   <h2 class="page_headline">Praktiskt</h2>
   <p class="page_text">Anmäl ditt intresse om du tror att det här skulle vara något för dig. Allt det praktiska kommer vi att bestämma när vi fått tillräckligt med anmälningar, och om det blir av skickar vi ut inbjudningar som du får ta ställning till då.</p>
   <ul>
-    <li>Datum: Hösten 2024</li>
+    <li>Datum: Hösten 2025</li>
     <li>Tid: 17:00 - sent</li>
     <li>Var: Temperance (troligen)</li>
     <li>Klädsel: Högtidsdräkt m.o.</li>
